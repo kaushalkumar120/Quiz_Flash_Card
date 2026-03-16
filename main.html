@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Flashcards</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📚 Quiz Flashcards</h1>
+
+<div class="score-box">
+Score: <span id="score">0</span>
+</div>
+
+<div class="progress-bar">
+<div id="progress-fill"></div>
+</div>
+
+<div class="card-wrapper">
+
+<div class="flashcard" id="card">
+
+<div class="card-inner">
+
+<div class="card-front">
+<p id="question"></p>
+<button id="show-btn">Show Answer</button>
+</div>
+
+<div class="card-back">
+<p id="answer"></p>
+
+<div class="answer-buttons">
+
+<button class="correct" id="correct-btn">✔ Correct</button>
+<button class="wrong" id="wrong-btn">✖ Wrong</button>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="controls">
+
+<button id="prev-btn">← Previous</button>
+<span id="progress">1 / 10</span>
+<button id="next-btn">Next →</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
